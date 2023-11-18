@@ -1,11 +1,29 @@
 html{
+    color: #93B1A6;
+    background-color: #040D12;
+}
+/*FIXME: organize this*/
+.elementor-heading-title{
+    font-size: 95.7px;
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #D6DEEB;
-    background-color: #011627;
+    text-transform: uppercase;
+    letter-spacing: 2.2px;
+    text-shadow: 1px 3px 11px rgba(0,0,0,.3);
+    text-align: center;
+    padding: 1em;
+}
+
+/*FIXME: organize this*/
+.elementor-subtitle{
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 2.2px;
+    text-align: center;
+    line-height: 1.5em;
 }
 
 a {
-    color: #D6DEEB;
+    color: #5C8374;
+    font-family: 'Roboto Mono', sans-serif;
 }
