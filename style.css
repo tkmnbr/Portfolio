@@ -23,12 +23,10 @@ html{
 }
 
 /*FIXME: organize this*/
-.elementor-subtitle{
+.style-subtitle{
     font-family: 'Roboto Mono', sans-serif;
     font-size: 22px;
     text-transform: uppercase;
-    letter-spacing: 2.2px;
-    text-align: center;
     line-height: 1.5em;
 }
 
