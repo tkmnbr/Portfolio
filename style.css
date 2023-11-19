@@ -3,14 +3,23 @@ html{
     background-color: #040D12;
 }
 /*FIXME: organize this*/
-.elementor-heading-title{
+.style-title{
     font-size: 95.7px;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 2.2px;
     text-shadow: 1px 3px 11px rgba(0,0,0,.3);
+}
+
+.heading-title{
+    letter-spacing: 2.2px;
     text-align: center;
-    padding: 1em;
+    margin-top: 350px;
+    margin-bottom: 0px;
+}
+
+.heading-subtitle{
+    letter-spacing: 2.2px;
+    text-align: center;
 }
 
 /*FIXME: organize this*/
@@ -26,4 +35,23 @@ html{
 a {
     color: #5C8374;
     font-family: 'Roboto Mono', sans-serif;
+    font-size: 20px;
+    text-decoration-line: none;
+}
+
+a:hover {
+    color: #93B1A6;
+}
+
+.navigation-menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    float: left;
 }
