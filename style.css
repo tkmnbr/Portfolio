@@ -1,12 +1,14 @@
 html{
-    color: #93B1A6;
     background-color: #040D12;
 }
-/*FIXME: organize this*/
+
+body{
+    color: #93B1A6;
+}
+
 .style-title{
     font-size: 95.7px;
     font-family: 'Roboto', sans-serif;
-    text-transform: uppercase;
     text-shadow: 1px 3px 11px rgba(0,0,0,.3);
 }
 
@@ -22,7 +24,6 @@ html{
     text-align: center;
 }
 
-/*FIXME: organize this*/
 .style-subtitle{
     font-family: 'Roboto Mono', sans-serif;
     font-size: 22px;
@@ -47,7 +48,7 @@ a:hover {
     padding: 0;
 }
 
-li {
+.naviagtion li {
     display: block;
     padding: 16px;
     text-decoration: none;
